@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
         CheckboxGroup(
           orientation: GroupedButtonsOrientation.HORIZONTAL,
           margin: const EdgeInsets.only(left: 12.0),
-          onSelected: (List selected) => setState((){
+          onSelected: (List<String> selected) => setState((){
             _checked = selected;
           }),
           labels: <String>[
